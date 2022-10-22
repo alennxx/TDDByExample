@@ -1,10 +1,13 @@
 from TestCaseTest import TestCaseTest
 from WasRun import WasRun
 
-test = WasRun("testMethod")
-print(test.wasRun)
-test.run()
-print(test.wasRun)
+# test = WasRun("testMethod")
+# print(test.wasRun)
+# test.run()
+# print(test.wasRun)
 
-x = TestCaseTest("testRunning")
-x.run()
+#x = TestCaseTest("testRunning")
+#x.run()
+
+TestCaseTest("testTemplateMethod").run()
+TestCaseTest("testResult").run()
